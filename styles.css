@@ -1,0 +1,78 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+#main{
+    background-image: url("images/tlaxcala.webp");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    
+    padding: 0;
+    margin: 0;
+    
+}
+#header-one{
+    background-color: #1D3557;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-shadow: 0 0 2px black;
+
+}
+#header-two{
+    background-color: #457B9D;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+
+}
+.activities-pics{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+}
+#activities-container{
+    background-color: #A8DADC;
+}   
+h3{
+    margin: 0px;
+    padding: 60px;
+}
+#nav-activities{
+    display: flex;
+    justify-content: space-around;
+    border-top: 0px;
+    height: 300px;
+    
+}
+body {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
+
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+p{
+    font-family: inherit;
+}
