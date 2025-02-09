@@ -5,6 +5,8 @@ LIGHT: #F1FAEE
 AQUA: #A8DADC
 LIGHT BLUE: #457B9D
 DARK BLUE: #1D3557
+\
+F1FAEE
 
 */
 
@@ -39,16 +41,18 @@ DARK BLUE: #1D3557
 
 }
 .activities-pics{
-    height: 130px;
-    width: 130px;
+    height: 175px;
+    width: 175px;
     border-radius: 50%;
 }
 #activities-container{
-    background-color: #A8DADC;
+    background-color: #F1FAEE;
 }   
 h3{
     margin: 0px;
     padding: 60px;
+    font-size: x-large;
+    color: #1D3557;
 }
 #nav-activities{
     display: flex;
@@ -73,6 +77,21 @@ body {
 img {
     width: 100px;
 }
-p{
-    font-family: inherit;
+h4{
+    color: #1D3557;
+}
+#card{
+    display: flex;
+    width: 700px;
+    gap: 40px;
+    margin: 40px auto;
+    padding: 50px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #A8DADC;
+}
+
+#avatar{
+    height: 150px;
+    width: 150px;
 }
