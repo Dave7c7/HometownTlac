@@ -45,6 +45,10 @@ F1FAEE
     width: 175px;
     border-radius: 50%;
 }
+.activities-pics:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
 #activities-container{
     background-color: #F1FAEE;
 }   
